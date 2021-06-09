@@ -62,20 +62,46 @@ h1{
 a:hover{
  color: rgb(233, 230, 79);
 }
+
 .images{
    display: flex;
-   flex-direction:row;
-   flex-wrap: wrap;
+   flex-direction:column;
     
 }
 .images img{
-
-    flex-direction: column;
-    width: 450px;
-    height:330px;
-    border: 2px solid red ;
+    width: 600px;
+    height:450px;
+  
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    
 }
 
+.middle {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgb(17, 15, 15);
+   
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 30, 30);
+}
+.images h3{
+    color:whitesmoke;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.images p{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 20px;
+}
 
 .jumbo{
     height: 100vh;
